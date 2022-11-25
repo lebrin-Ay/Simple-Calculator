@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto Mono", monospace;
+    font-size: 16px;
+}
+
+body {
+    width: 100vw;
+    height: 70vh;
+    background-color: #F7EAE2;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.container {
+    height: 80vh;
+    width: 22vw;
+    max-width: 500px;
+    border: 5px solid #B69C87;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    padding: 1.3rem;
+}
+
+.container .previousInput {
+    width: 6vw;
+    margin-left: .3rem;
+    color: #F9D7C8;
+    font-weight: bold;
+    font-size: 1.5rem;   
+}
+
+
+.output {
+    outline: none;
+    border: none;
+    /* display: flex; */
+    /* align-content:flex-end; */
+    justify-content: space-around;
+    /* flex-direction: column; */
+    color: #FFFFFF;
+    font-size: 2.7rem;
+    margin-top: 3.3rem;
+    width: 17.8vw;
+    height: 8vw;
+    border-radius: 6px;
+    background-image: linear-gradient(to right, #FFC290 , #FFAF8A);
+    box-shadow: #FFCCAA 5px 5px, #FDE0CA 14px 10px;
+}
+
+.answer::placeholder {
+    color: white;
+}
+
+.cal-inputs {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    grid-row-gap: 3rem;   
+}
+
+.cal-keys {
+    /* padding: 1rem; */
+    font-size: 1.7rem;
+    color: #414141;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: #FFFFFF;
+}
+
+.cal-keys:hover {
+    cursor: pointer;
+    background-color: #FBB699;
+    border: none;
+    outline: none;
+}
+
+.input {
+    grid-area: span;
+}
+
+.input-times {
+    font-weight: 500;
+}
+
+i {
+    color: #FBB699;
+    font-size: 1.3rem;
+}
+
+.delete-icon:hover {
+    background-color: #414141;
+}
+
+.equal-sign {
+    color: #FBB699;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    margin-left: .7rem;
+    margin-top: 2rem;
+    grid-row: 4 / 6; 
+    grid-column: 4 / 5;   
+    font-weight: 900;
+}
+
+.equal-sign:hover {
+    cursor: pointer;
+    background-color: #414141;
+    border: none;
+    outline: none;
+}
