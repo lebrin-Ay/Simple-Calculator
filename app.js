@@ -49,15 +49,15 @@ function calculate () {
 
 }
 
-function backspace(){
-    let len=document.getElementById('backspace');
-    let inner=len.innerHTML;
-    len="";
-    inner=inner.split("");
-    inner=inner.splice(inner.length-1,1)
-    inner=inner.join("");
-    len.value=inner;
-}
+// function backspace(){
+//     let len=document.getElementById('backspace');
+//     let inner=len.innerHTML;
+//     len="";
+//     inner=inner.split("");
+//     inner=inner.splice(inner.length-1,1)
+//     inner=inner.join("");
+//     len.value=inner;
+// }
 
 
 // To allow all buttons to be clicked (loop through all buttons)
@@ -99,7 +99,6 @@ for (let button of numberButtons) {
         //To delete user value one at a time 
         if (buttonValue === clearButton.value) {
             screenDisplay.innerText = screenDisplay.innerText.slice(0, -1)
-            // console.log('hi')
         }
 
      
