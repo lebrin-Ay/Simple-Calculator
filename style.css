@@ -47,8 +47,8 @@ body {
     justify-content: space-around;
     /* flex-direction: column; */
     color: #FFFFFF;
-    font-size: 2.7rem;
-    margin-top: 3.3rem;
+    font-size: 3.3rem;
+    margin-top: 1rem;
     width: 17.8vw;
     height: 8vw;
     border-radius: 6px;
@@ -69,8 +69,7 @@ body {
 }
 
 .cal-keys {
-    /* padding: 1rem; */
-    font-size: 1.7rem;
+    font-size: 1.2rem;
     color: #414141;
     font-weight: 500;
     border: none;
